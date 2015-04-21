@@ -72,7 +72,7 @@
       <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/inventory"/>
       <property name="javax.persistence.jdbc.user" value="inventory"/>
-      <property name="javax.persistence.jdbc.password" value="12345"/>
+      <property name="javax.persistence.jdbc.password" value="pa55ward"/>
       <property name="hibernate.connection.autocommit" value="false"/>
       <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
       <property name="jadira.usertype.autoRegisterUserTypes" value="true"/>

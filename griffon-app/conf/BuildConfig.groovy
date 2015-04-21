@@ -194,6 +194,7 @@ griffon.project.dependency.resolution = {
         runtime 'mysql:mysql-connector-java:5.1.33'
         runtime 'jockihendry:hibernate-entitymanager:4.3.7-EXPERIMENT'
         runtime 'org.apache.poi:poi:3.8'
+        compile 'org.codehaus.groovy:groovy-backports-compat23:2.3.5'
         compile 'org.hibernate:hibernate-validator:4.3.0.Final'
         compile('net.sf.jasperreports:jasperreports:5.6.1') {
             exclude 'olap4j'
@@ -202,7 +203,7 @@ griffon.project.dependency.resolution = {
             exclude 'lucene-core'
             exclude 'itext'
         }
-        compile 'jockihendry:simple-escp:0.6'
+        compile 'jockihendry:simple-escp:0.5'
         compile('com.lowagie:itext:2.1.7') {
             exclude 'bctsp-jdk14'
             exclude 'bcmail-jdk14'

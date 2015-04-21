@@ -10,6 +10,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="griffon-1.5.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="griffon-1.5.0" level="application" />
     <orderEntry type="module-library" exported="">
       <library name="Griffon:lib (simple-jpa-demo-inventory-griffonPlugins)">
         <CLASSES />
@@ -19,4 +20,3 @@
     </orderEntry>
   </component>
 </module>
-

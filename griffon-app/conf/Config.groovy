@@ -109,10 +109,10 @@ griffon {
             properties {
                 environments {
                     development {
-                        if (System.getProperty('simplejpa.cleandb') == 'true') {
+                        //if (System.getProperty('simplejpa.cleandb') == 'true') {
                             javax.persistence.'schema-generation'.database.action = 'drop-and-create'
                             javax.persistence.'sql-load-script-source' = 'META-INF/data.sql'
-                        }
+                        //}
                     }
                     test {
                         javax.persistence.'schema-generation'.database.action = 'drop-and-create'

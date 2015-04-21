@@ -27,3 +27,9 @@ jx {
         view = '*'
     }
 }
+
+jx {
+    'groovy.swing.SwingXBuilder' {
+        view = '*'
+    }
+}
